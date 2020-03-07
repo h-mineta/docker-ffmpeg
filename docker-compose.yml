@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ffmpeg:
+    build: .
+    container_name: ffmpeg
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
